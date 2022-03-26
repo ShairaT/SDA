@@ -1,0 +1,156 @@
+.carousel .carousel-item {
+	color: #999;
+	overflow: hidden;
+	min-height: 200px;
+	font-size: 13px;
+}
+.carousel .media img {
+	width: 80px;
+	height: 80px;
+	display: block;
+	border-radius: 50%;
+}
+.carousel .testimonial {
+	padding: 0 15px 0 60px ;
+	position: relative;
+}
+
+.testionial-text {
+    font-size: 20px;
+    color: #e2e2e2;
+}
+
+.carousel .testimonial::before {
+	content: "\201C";
+	color: #e2e2e2;
+	font-weight: bold;
+	font-size: 68px;
+	line-height: 54px;
+	position: absolute;
+	left: 15px;
+	top: 0;
+}
+.carousel .overview b {
+	color: #8C8C8C;
+}
+.carousel .carousel-indicators {
+    background-color: #212121;
+	bottom: -40px;
+}
+.carousel-indicators li, .carousel-indicators li.active {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	margin: 1px 3px;
+	box-sizing: border-box;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 99;
+}
+
+.wrapper.wrapper--margins {
+    padding: 90px 0 80px;
+}
+
+.wrapper:before, .wrapper:after {
+    content: " ";
+    display: table;
+}
+
+.home-section-title {
+  font-size: 1.28571em;
+  text-transform: uppercase;
+  margin-bottom: 90px;
+  display: block;
+  margin: 0 0 0.5em;
+  line-height: 1.4;
+  color: #111;
+  text-align: center;
+}
+
+.home-section-title:after {
+    content: "";
+    display: block;
+    width: 45px;
+    height: 3px;
+    background: #429c80;
+    margin: 25px auto 0;
+}
+
+.grid, .grid--rev, .grid--full, .grid-uniform {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-left: -8%;
+}
+
+.grid-margins>.grid__item {
+    margin-top: 80px;
+}
+
+.grid__item {
+    box-sizing: border-box;
+    float: left;
+    min-height: 1px;
+    padding-left: 8%;
+    vertical-align: top;
+    width: 100%;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.testimonial-content p {
+  font-size: 24px;
+  font-weight: 400;
+  color: #3c3c3c;
+}
+
+.testimonial-content span {
+  display: block;
+  margin-top: 14px;
+  font-size: 28px;
+  font-weight: 300;
+  color: #7a7a7a;
+}
+
+
+@media screen and (max-width: 1400px) {
+  .wrapper {
+      margin: 0 100px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .large--one-third {
+      width: 33.333%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .large--two-thirds {
+      width: 66.666%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .grid-margins>.grid__item {
+      margin-top: 65px;
+  }
+
+  .medium-down--text-center {
+      text-align: center !important;
+  }
+  
+}
+
+@media only screen and (min-width: 768px) {
+.grid-uniform .large--one-half:nth-child(2n+1), .grid-uniform .large--one-third:nth-child(3n+1), .grid-uniform .large--one-quarter:nth-child(4n+1), .grid-uniform .large--one-fifth:nth-child(5n+1), .grid-uniform .large--one-sixth:nth-child(6n+1), .grid-uniform .large--two-sixths:nth-child(3n+1), .grid-uniform .large--three-sixths:nth-child(2n+1), .grid-uniform .large--two-eighths:nth-child(4n+1), .grid-uniform .large--four-eighths:nth-child(2n+1), .grid-uniform .large--five-tenths:nth-child(2n+1), .grid-uniform .large--one-twelfth:nth-child(12n+1), .grid-uniform .large--two-twelfths:nth-child(6n+1), .grid-uniform .large--three-twelfths:nth-child(4n+1), .grid-uniform .large--four-twelfths:nth-child(3n+1), .grid-uniform .large--six-twelfths:nth-child(2n+1), .grid-margins .large--one-half:nth-child(2n+1), .grid-margins .large--one-third:nth-child(3n+1), .grid-margins .large--one-quarter:nth-child(4n+1), .grid-margins .large--one-fifth:nth-child(5n+1), .grid-margins .large--one-sixth:nth-child(6n+1), .grid-margins .large--two-sixths:nth-child(3n+1), .grid-margins .large--three-sixths:nth-child(2n+1), .grid-margins .large--two-eighths:nth-child(4n+1), .grid-margins .large--four-eighths:nth-child(2n+1), .grid-margins .large--five-tenths:nth-child(2n+1), .grid-margins .large--one-twelfth:nth-child(12n+1), .grid-margins .large--two-twelfths:nth-child(6n+1), .grid-margins .large--three-twelfths:nth-child(4n+1), .grid-margins .large--four-twelfths:nth-child(3n+1), .grid-margins .large--six-twelfths:nth-child(2n+1) {
+    clear: both;
+}
+}
